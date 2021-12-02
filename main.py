@@ -54,7 +54,7 @@ plt.scatter(storyPoints, timeHours,  color='blue')
 plt.plot(storyPoints, model.predict(storyPoints), color='red', linewidth=2)
 
 # Defino el valor y rango de los ejes
-plt.xticks(np.arange(1,12))
+plt.xticks(np.arange(1,13))
 plt.yticks(np.arange(0,18))
 
 # xy labels
